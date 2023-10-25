@@ -1,0 +1,167 @@
+html{
+    width: 100%; 
+    /* height: 100%; */
+}
+body{
+    min-height: 100vh;
+    background-color:#202124 ;
+    color:#bdc1c6;
+    margin: 0;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    justify-content: right;
+}
+/* :hover a{
+    color: #bdc1c6;
+    font-weight: bold;
+    text-decoration-line: underline;
+} */
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    align-content: center; 
+    padding: 50px;
+    top: 600px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: column;
+    margin: 0;
+    width: 300px;
+    height: 100px;
+    top: 600px;
+}
+form input{
+    justify-content: center;
+    background: transparent;
+    border-radius: 40px;
+    border-color: #303134;
+    width: 600px;
+    padding: 15px;
+    margin: 20px;
+}
+.button-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button_1{
+    background-color: #303134;
+    color: white;
+    padding:5px;
+    margin: 20px;
+}
+
+#offers a{
+    padding: 5px;
+    text-decoration: none;
+    color: #5da6f8;
+}
+offers :hover a{
+    color: #bdc1c6;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+footer{
+    max-height: 100%;
+    text-decoration: none;
+    width: 100%;
+    background-color: #171717;
+    color:#bdc1c6;
+    margin: 0;
+}
+footer .Nig{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    border-bottom: 3px #202124 solid ;
+}
+
+.lastpart{
+    top: 100%;
+    display:flex;
+    /* align-items:center ; */
+    justify-content: space-between;
+}
+.lastpart div{
+    border: 1px;
+    padding: 20px;
+}
+.lastpart a{
+    text-decoration: none;
+    color: #bdc1c6;
+    display: flex;
+    padding: 5px;
+}
+.ifl{
+    display: flex;
+    /* flex:10; */
+    /* order: 1   */
+    /* order is for position placement while flex is for how mide you want it to be */
+}
+.ifm{
+    /* flex:10; */
+    order: 1;
+}
+.ifr{
+    display: flex;
+    /* flex:10; */
+    order: 1;
+}
+ul li{
+        padding: 5px;
+        text-decoration: none;
+        color: #5da6f8;
+    text-decoration: none;
+    margin: 0;
+    /* padding: 0; */
+    display: inline;
+    float: right;
+   /* Flex direction and flex wrap: to make your content go under each other when decrasing the size of the page 
+    flex-flow: row nowrap;
+     flex: 1 1 auto;    means: Flex-grow, flex-shrink, flex basis */ 
+    list-style: none; 
+} 
+ /* li a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    display: flex; 
+     flex-direction: row;
+    justify-content: right;
+    align-content: row; 
+ } */
+/* .lastpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    gap: 250px; 
+    color: #bdc1c6;
+    margin: 0;
+}
+footer .lastpart a{
+    color: #bdc1c6;
+    text-decoration: none;
+    padding: 5px;
+
+}
+footer :hover a{
+    text-decoration-line: underline;
+}
